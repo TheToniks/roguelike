@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-10-25T21:48:59.055+05:00
-  initializedAtString: 2021-10-25T21:48:59.025+05:00
+  lastUpdatedAtString: 2021-12-19T19:03:57.590+05:00
+  initializedAtString: 2021-12-19T19:03:57.578+05:00
   localBranches:
   - name: main
-    tracking: 
-  - name: master
-    tracking: origin/master
+    tracking: origin/main
   remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   remotes:
@@ -34,26 +34,26 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - main
-    - master
     values:
     - name: main
       remote:
-        name: 
-        url: 
-      trackingBranch: 
-    - name: master
-      remote:
         name: origin
         url: https://github.com/TheToniks/roguelike.git
-      trackingBranch: master
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - HEAD
       - master
     subKeyValues:
     - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/TheToniks/roguelike.git
+        trackingBranch: 
       - name: master
         remote:
           name: origin
